@@ -21,7 +21,7 @@ void writeBinWitness(char *witnessBuffer, unsigned long witnessSize, std::string
     fclose(write_ptr);
 }
 
-static const size_t WitnessBufferSize = 8*1024*1024;
+static const size_t WitnessBufferSize = 100*1024*1024;
 static char WitnessBuffer[WitnessBufferSize];
 
 int main (int argc, char *argv[]) {
